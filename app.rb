@@ -1,13 +1,12 @@
-require 'sinatra/base'
-require 'sinatra/reloader'
+require 'sinatra'
+require 'sinatra/reloader' if development?
 require './lib/accounts'
+require_relative './lib/rooms'
 
-class BnbManager < Sinatra::Base
-
+class Makersbnb < Sinatra::Base
   enable :sessions
-
-  configure :development do 
-    register Sinatra::Reloader 
+  configure :development do
+    register Sinatra::Reloader
   end
 
   get '/' do
@@ -29,6 +28,14 @@ class BnbManager < Sinatra::Base
   get '/welcome' do 
     @username = session[:username]
     erb :welcome 
+    
+  get '/test' do
+    'Testing...'
+  end
+  
+  get '/rooms' do
+    @list = Rooms.list_all
+    erb :rooms
   end
 
   run! if app_file == $0

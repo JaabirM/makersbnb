@@ -1,0 +1,1 @@
+CREATE TABLE accounts(id SERIAL PRIMARY KEY, first_name VARCHAR(60), second_name VARCHAR(60), username VARCHAR(60), password VARCHAR(60), email VARCHAR(60), country VARCHAR(60), number VARCHAR(16));

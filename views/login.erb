@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>MakersBnb!</title>
+  </head>
+  <body>
+    <h1 style="text-align:center">Please enter your details</h1> <br>
+    <form style="text-align:center" action='/login' method='post'>
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"> <br>
+      <input type="submit" value="Submit">
+    </form>
+    <p id="flash"><%= flash[:notice] %></p>
+  </body>
+</html>

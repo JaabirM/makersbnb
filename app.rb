@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
+require 'sinatra/flash'
 require './lib/accounts'
 require './lib/rooms'
 require './lib/list_room'
@@ -7,6 +8,8 @@ require './lib/account_info'
 
 class Makersbnb < Sinatra::Base
   enable :sessions
+  register Sinatra::Flash
+
   configure :development do
     register Sinatra::Reloader
   end
@@ -56,8 +59,22 @@ class Makersbnb < Sinatra::Base
 
   get '/account_info' do
     @username = "Jaabir"
-    Account_Info.get_account_info(2)
+    Account_Info.get_account_info(3)
     erb :account_info
+  end
+
+  get '/login' do
+    erb :login
+  end
+
+  post '/login' do
+    if Accounts.details_match?(params[:username], params[:password]) == true
+      flash[:notice] = 'You have been logged in'
+      redirect '/rooms'
+    else
+      redirect '/login'
+      flash[:notice] = 'Invalid credentials'
+    end
   end
 
   run! if app_file == $0

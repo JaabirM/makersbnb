@@ -1,7 +1,9 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
 require './lib/accounts'
-require_relative './lib/rooms'
+require './lib/rooms'
+require './lib/list_room'
+require './lib/account_info'
 
 class Makersbnb < Sinatra::Base
   enable :sessions
@@ -27,7 +29,8 @@ class Makersbnb < Sinatra::Base
 
   get '/welcome' do 
     @username = session[:username]
-    erb :welcome 
+    erb :welcome
+  end
     
   get '/test' do
     'Testing...'
@@ -36,6 +39,25 @@ class Makersbnb < Sinatra::Base
   get '/rooms' do
     @list = Rooms.list_all
     erb :rooms
+  end
+
+  get '/list_room' do
+    erb :list_room
+  end
+
+  post '/list_room' do
+    p List_Room.create_room(
+    params[:room_name], params[:room_description], 
+    params[:price], params[:street],
+    params[:apt_suite], params[:city], 
+    params[:county], params[:postcode])
+    redirect '/rooms'
+  end
+
+  get '/account_info' do
+    @username = "Jaabir"
+    Account_Info.get_account_info(2)
+    erb :account_info
   end
 
   run! if app_file == $0

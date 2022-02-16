@@ -2,6 +2,10 @@ body {
   background-color: #1DA1F2;
 }
 
+#list_room_body {
+  background-color: greenyellow;
+}
+
 #room_list {
   height: 150px;
   width: 500px;
@@ -12,4 +16,25 @@ body {
   border-radius: 5px;
   background: white;
   box-shadow: rgba(254, 205, 211, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(254,205,211, 0.1) 0px 16px 56px;
+}
+
+#generic_form_box {
+  height: 500px;
+  width: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  margin: auto;
+  border-radius: 5px;
+  background: white;
+  box-shadow: rgba(254, 205, 211, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(254,205,211, 0.1) 0px 16px 56px;
+}
+
+#room_description {
+  height: 100px;
+  width: 400px;
+}
+
+#account {
+  padding-left: 1100px;
 }

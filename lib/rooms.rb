@@ -28,6 +28,5 @@ class Rooms
     else
       conn = PG.connect(dbname: 'makersbnb')
     end
-
   end
 end

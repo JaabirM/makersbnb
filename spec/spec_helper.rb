@@ -13,6 +13,7 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'

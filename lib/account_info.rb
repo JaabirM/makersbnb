@@ -16,4 +16,3 @@ class Account_Info
     end
   end
 end
-

@@ -40,6 +40,7 @@ class Makersbnb < Sinatra::Base
   end
   
   get '/rooms' do
+    @username = session[:logged_in]
     @list = Rooms.list_all
     erb :rooms
   end
@@ -70,11 +71,18 @@ class Makersbnb < Sinatra::Base
   post '/login' do
     if Accounts.details_match?(params[:username], params[:password]) == true
       flash[:notice] = 'You have been logged in'
+      session[:logged_in] = params[:username]
       redirect '/rooms'
     else
       redirect '/login'
       flash[:notice] = 'Invalid credentials'
     end
+  end
+
+  get '/book_room' do
+    @username = session[:logged_in]
+    @room_name = params[:room_name]
+    erb :book_room
   end
 
   run! if app_file == $0

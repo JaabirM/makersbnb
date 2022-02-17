@@ -19,7 +19,7 @@ body {
 }
 
 #generic_form_box {
-  height: 500px;
+  height: 700px;
   width: 500px;
   padding-left: 50px;
   padding-right: 50px;
@@ -37,4 +37,20 @@ body {
 
 #account {
   float: right;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+#input1 {
+  width: 250px;
+  height: 25px;
+}
+
+label {
+  font-size: large;
 }

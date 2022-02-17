@@ -72,9 +72,13 @@ class Makersbnb < Sinatra::Base
       flash[:notice] = 'You have been logged in'
       redirect '/rooms'
     else
-      redirect '/login'
       flash[:notice] = 'Invalid credentials'
+      redirect '/login'
     end
+  end
+
+  get '/style_test' do
+    erb :style_test
   end
 
   run! if app_file == $0

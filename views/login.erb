@@ -8,11 +8,11 @@
     <h1 style="text-align:center">Please enter your details</h1> <br>
     <form style="text-align:center" action='/login' method='post'>
       <label for="username">Username:</label><br>
-      <input type="text" id="username" name="username"><br>
+      <input type="text" id="input1" name="username" placeholder='username'><br><br>
       <label for="password">Password:</label><br>
-      <input type="password" id="password" name="password"> <br>
+      <input type="password" id="input1" name="password" placeholder='password'> <br><br>
       <input type="submit" value="Submit">
     </form>
-    <p id="flash"><%= flash[:notice] %></p>
+    <p id="flash" style="text-align:center"><%= flash[:notice] %></p>
   </body>
 </html>

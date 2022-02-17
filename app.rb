@@ -74,15 +74,19 @@ class Makersbnb < Sinatra::Base
       session[:logged_in] = params[:username]
       redirect '/rooms'
     else
-      redirect '/login'
       flash[:notice] = 'Invalid credentials'
+      redirect '/login'
     end
   end
-
+  
   get '/book_room' do
     @username = session[:logged_in]
     @room_name = params[:room_name]
     erb :book_room
+  end
+  
+  get '/style_test' do
+    erb :style_test
   end
 
   run! if app_file == $0

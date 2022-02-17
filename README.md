@@ -42,7 +42,7 @@ Id like to show availability of my space.
 
 - As a Host
 To prevent overbooking
-Id like to make spaces unavailable once theyve been booked.
+Id like to make spaces unavailable once they've been booked.
 
 - As a Host 
 For safety reasons

@@ -9,8 +9,6 @@ feature 'Creating a new account' do
     fill_in('country', with: 'England')
     fill_in('number', with: '12345678912')
     click_button('Submit') 
-
     expect(page).to have_content 'JoKing'
   end 
 end
-

@@ -29,7 +29,7 @@ For example. The room details table could contain the room name, owned by who, b
 <details>
   <summary>Click to expand!<summary>
     
-  
+<p>  
 * As a User 
 So that I can use MakersBnB
 I want to create an account.
@@ -64,7 +64,7 @@ Id like to request a space
 
 * As a host 
 Until I have confirmed a request
-Id like the room to remain bookable for that date.
+Id like the room to remain bookable for that date.</p>
 </details>
     
     

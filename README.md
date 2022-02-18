@@ -24,7 +24,7 @@ By tuesday afternoon, our minimum viable product is to have a functioning web pa
 For example. The room details table could contain the room name, owned by who, booked by who and dates.</div>
 
 
-# <div align="center">User Stories</div>
+##### <div align="center">User Stories</div>
 <details>
 <summary>Click to expand!<summary>
   

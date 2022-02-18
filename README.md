@@ -25,10 +25,43 @@ For example. The room details table could contain the room name, owned by who, b
 
 
 ### <div align="center">User Stories</div>
-<details><summary>Click to expand!<summary>
-As a User 
+<details>
+  <summary>Click to expand!<summary>
+1. As a User 
 So that I can use MakersBnB
 I want to create an account.
+  
+2. As a Host
+So I can rent out a room
+Id like to list a space. 
+
+3. As a Host 
+Because I have multiple properties
+Id like to list multiple spaces.
+
+4. As a Host 
+When I rent out a space
+Id like to be able to add a name/description/price. 
+
+5. As a Host
+To not overbook 
+Id like to show availability of my space. 
+
+6. As a Host
+To prevent overbooking
+Id like to make spaces unavailable once they've been booked.
+
+7. As a Host 
+For safety reasons
+Id like only signed up users to hire my space.
+
+8. As a signed up User
+So that I can book 
+Id like to request a space 
+
+9. As a host 
+Until I have confirmed a request
+Id like the room to remain bookable for that date.
   </details>
     
      

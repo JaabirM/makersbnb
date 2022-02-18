@@ -25,7 +25,6 @@ For example. The room details table could contain the room name, owned by who, b
 
 
 User stories:-
----------------------------------------------------------------------------
 <summary>
 ````````````````````````````````````````````````````````````
 - As a User 

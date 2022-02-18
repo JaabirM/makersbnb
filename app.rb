@@ -5,6 +5,7 @@ require './lib/accounts'
 require './lib/rooms'
 require './lib/list_room'
 require './lib/account_info'
+require './lib/booking'
 
 class Makersbnb < Sinatra::Base
   enable :sessions
@@ -89,8 +90,12 @@ class Makersbnb < Sinatra::Base
   end
 
   post '/request_room' do
-    
+    Booking.create_booking(params[:username], params[:booked_date_from], params[:booked_date_to])
     redirect 'request_complete'
+  end
+
+  get '/request_complete' do
+    erb :room_booked
   end
   
   get '/style_test' do

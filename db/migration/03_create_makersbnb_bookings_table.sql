@@ -1,1 +1,1 @@
-CREATE TABLE bookings(id SERIAL PRIMARY KEY, room_id integer, booked_by integer, booked_date_from date, booked_date_to date);
+CREATE TABLE bookings(id SERIAL PRIMARY KEY, room_id integer, username varchar(60), booked_date_from date, booked_date_to date);

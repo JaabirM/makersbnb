@@ -24,10 +24,12 @@ By tuesday afternoon, our minimum viable product is to have a functioning web pa
 For example. The room details table could contain the room name, owned by who, booked by who and dates.</div>
 
 ------------------------------------------------------------------------------------------
+
+# <div align="center">User Stories</div>
 <details>
-  <summary> User Stories<summary>
+  <summary>Click to expand!<summary>
     
-    ## 
+  
 * As a User 
 So that I can use MakersBnB
 I want to create an account.
@@ -63,7 +65,8 @@ Id like to request a space
 * As a host 
 Until I have confirmed a request
 Id like the room to remain bookable for that date.
-    </details>
+</details>
+    
     
 ---------------------------------------------------------------------------
 How To Set Up The Project:-

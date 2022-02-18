@@ -26,6 +26,8 @@ For example. The room details table could contain the room name, owned by who, b
 ------------------------------------------------------------------------------------------
 <details>
   <summary> User Stories<summary>
+    
+    ## 
 * As a User 
 So that I can use MakersBnB
 I want to create an account.

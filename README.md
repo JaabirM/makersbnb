@@ -4,7 +4,7 @@
 ## <div align="center">Project description:<br><br>
 We would like a web application that allows users to list spaces they have available, and to hire spaces for the night.</div>
 
-### **<div align="center">Headline specifications:-
+### <div align="center">Headline specifications:-
 
 Any signed-up user can list a new space.
 Users can list multiple spaces.

@@ -26,6 +26,7 @@ Until a user has confirmed a booking request, that space can still be booked for
 ### <div align="center">MVP:
 By tuesday afternoon, our minimum viable product is to have a functioning web page that allows a user to create an account and view listed rooms. We aim to do this by creating a database that holds account detsails and room details. 
 For example. The room details table could contain the room name, owned by who, booked by who and dates.</div>
+
 -----------------------------------------------------
 
 

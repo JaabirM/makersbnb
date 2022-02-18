@@ -19,6 +19,7 @@ We aim to do this by creating a database that holds account detsails and room de
 For example. The room details table could contain the room name, owned by who, booked by who and dates.
 ---------------------------------------------------------------------------
 User stories:-
+---------------------------------------------------------------------------
 ````````````````````````````````````````````````````````````
 - As a User 
 So that I can use MakersBnB

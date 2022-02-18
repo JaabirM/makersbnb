@@ -66,4 +66,6 @@ Until I have confirmed a request
 Id like the room to remain bookable for that date.
   </details>
     
+-----------------------------------------------------
+### <div align="center">How to set up MakersBnB <div>
      

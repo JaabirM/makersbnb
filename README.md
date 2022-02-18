@@ -1,5 +1,5 @@
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/WXvM8GX" data-context="false" ><a href="//imgur.com/a/WXvM8GX"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 
 Project description:-
 We would like a web application that allows users to list spaces they have available, and to hire spaces for the night.

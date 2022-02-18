@@ -79,3 +79,15 @@ Id like the room to remain bookable for that date.
   ```
   $ bundle
   ```
+
+  To set up the database: 
+  ```
+  $ psql
+  ```
+  
+  followed by:
+  ```
+  $ CREATE DATABASE makersbnb;
+  ```
+  
+  

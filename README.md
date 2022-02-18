@@ -19,38 +19,45 @@ We aim to do this by creating a database that holds account detsails and room de
 For example. The room details table could contain the room name, owned by who, booked by who and dates.
 ---------------------------------------------------------------------------
 User stories:-
-`````````````````````````````````
+````````````````````````````````````````````````````````````
 - As a User 
 So that I can use MakersBnB
 I want to create an account.
-`````````````````````````````````
+````````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
 - As a Host
 So I can rent out a room
 Id like to list a space. 
-`````````````````````````````````
+```````````````````````````````````````````````````````````
 - As a Host 
 Because I have multiple properties
 Id like to list multiple spaces.
-```````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
 - As a Host 
 When I rent out a space
 Id like to be able to add a name/description/price. 
-`````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
 - As a Host
 To not overbook 
 Id like to show availability of my space. 
-```````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
 - As a Host
 To prevent overbooking
 Id like to make spaces unavailable once they've been booked.
+````````````````````````````````````````````````````````````
 ````````````````````````````````````````````````````````````
 - As a Host 
 For safety reasons
 Id like only signed up users to hire my space.
 ````````````````````````````````````````````````````````````
+````````````````````````````````````````````````````````````
 - As a signed up User
 So that I can book 
 Id like to request a space 
+````````````````````````````````````````````````````````````
 ````````````````````````````````````````````````````````````
 - As a host 
 Until I have confirmed a request

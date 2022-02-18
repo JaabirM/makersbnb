@@ -59,8 +59,10 @@ class Makersbnb < Sinatra::Base
   end
 
   get '/account_info' do
-    @username = "Jaabir"
-    Account_Info.get_account_info(3)
+    @username = session[:logged_in] #session variable already contains username, so we use instance variable to show up on the page.
+    #Account_Info.get_account_info(2)['username']
+
+    @room_list = List_Room.my_rooms(2)
     erb :account_info
   end
 
@@ -72,6 +74,7 @@ class Makersbnb < Sinatra::Base
     if Accounts.details_match?(params[:username], params[:password]) == true
       flash[:notice] = 'You have been logged in'
       session[:logged_in] = params[:username]
+      session[:booked_in] = params[:username]
       redirect '/rooms'
     else
       flash[:notice] = 'Invalid credentials'
@@ -83,6 +86,11 @@ class Makersbnb < Sinatra::Base
     @username = session[:logged_in]
     @room_name = params[:room_name]
     erb :book_room
+  end
+
+  post '/request_room' do
+    
+    redirect 'request_complete'
   end
   
   get '/style_test' do

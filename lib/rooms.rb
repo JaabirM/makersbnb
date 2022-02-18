@@ -24,7 +24,7 @@ class Rooms
 
   def self.db_connection()
     if ENV['RACK_ENV'] == 'test'
-      conn = PG.connect(dbname: 'makersbnb') #We can write makersbnb_test database for this bit once that database is created.
+      conn = PG.connect(dbname: 'makersbnb') 
     else
       conn = PG.connect(dbname: 'makersbnb')
     end

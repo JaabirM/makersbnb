@@ -91,6 +91,10 @@
           null,
           null,
           1,
+          0,
+          null,
+          null,
+          1,
           null
         ]
       },
@@ -165,6 +169,7 @@
           1,
           null,
           1,
+          null,
           1,
           0,
           0,
@@ -212,6 +217,19 @@
           null
         ]
       },
+      "/Users/sapnatavrawala/projects/makersbnb/spec/list_room_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/sapnatavrawala/projects/makersbnb/spec/rooms_spec.rb": {
         "lines": [
           1,
@@ -226,6 +244,6 @@
         ]
       }
     },
-    "timestamp": 1645109368
+    "timestamp": 1645179109
   }
 }

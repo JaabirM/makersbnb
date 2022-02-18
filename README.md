@@ -91,3 +91,4 @@ Id like the room to remain bookable for that date.
   ```
   
   To set up the appropriate tables, connect to the database in psql and run the SQL scripts in the db/migrations folder in the given order.
+  

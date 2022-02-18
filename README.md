@@ -1,6 +1,6 @@
 # makersbnb
 MAKERSBNB GROUP CHALLENGE - TEAM 404 NOT FOUND
-(https://www.eu-startups.com/wp-content/uploads/wpbdm/1381328818_0.png)
+![header] (https://www.eu-startups.com/wp-content/uploads/wpbdm/1381328818_0.png)
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 Project description:-
 We would like a web application that allows users to list spaces they have available, and to hire spaces for the night.

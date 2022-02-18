@@ -28,7 +28,7 @@ I want to create an account.
 - As a Host
 So I can rent out a room
 Id like to list a space. 
-```````````````````````````````````````````````````````````
+
 ```````````````````````````````````````````````````````````
 - As a Host 
 Because I have multiple properties

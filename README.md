@@ -75,3 +75,7 @@ Id like the room to remain bookable for that date.
 -----------------------------------------------------
 ### <div align="center">How to set up MakersBnB <div>
      
+  Clone this Repo and then run: 
+  ```
+  $ bundle
+  ```

@@ -1,9 +1,9 @@
 ![Makers Logo](/public/readmelogo.png)
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
- <div align="center">Project description: 
-We would like a web application that allows users to list spaces they have available, and to hire spaces for the night.</div> 
----------------------------------------------------------------------------
+ <summary><div align="center">Project description: 
+We would like a web application that allows users to list spaces they have available, and to hire spaces for the night.</div></summary>
+
 Headline specifications:-
 - Any signed-up user can list a new space.
 - Users can list multiple spaces.

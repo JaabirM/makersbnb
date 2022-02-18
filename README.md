@@ -25,54 +25,45 @@ For example. The room details table could contain the room name, owned by who, b
 
 
 User stories:-
-<summary>
-````````````````````````````````````````````````````````````
-- As a User 
+<details>
+  <summary> Click to expand.<summary>
+* As a User 
 So that I can use MakersBnB
 I want to create an account.
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a Host
+
+* As a Host
 So I can rent out a room
 Id like to list a space. 
-````````````````````````````````````````````````````````````
-```````````````````````````````````````````````````````````
-- As a Host 
+
+* As a Host 
 Because I have multiple properties
 Id like to list multiple spaces.
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a Host 
+
+* As a Host 
 When I rent out a space
 Id like to be able to add a name/description/price. 
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a Host
+
+* As a Host
 To not overbook 
 Id like to show availability of my space. 
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a Host
+
+* As a Host
 To prevent overbooking
 Id like to make spaces unavailable once they've been booked.
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a Host 
+
+* As a Host 
 For safety reasons
 Id like only signed up users to hire my space.
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a signed up User
+
+* As a signed up User
 So that I can book 
 Id like to request a space 
-````````````````````````````````````````````````````````````
-````````````````````````````````````````````````````````````
-- As a host 
+
+* As a host 
 Until I have confirmed a request
 Id like the room to remain bookable for that date.
-````````````````````````````````````````````````````````````
-  </summary>
-
+    </details>
+    
 ---------------------------------------------------------------------------
 How To Set Up The Project:-
 ---------------------------------------------------------------------------

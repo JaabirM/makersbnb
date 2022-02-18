@@ -27,6 +27,7 @@ For example. The room details table could contain the room name, owned by who, b
 ### <div align="center">User Stories</div>
 <details>
   <summary>Click to expand!<summary>
+    
 1. As a User 
 So that I can use MakersBnB
 I want to create an account.

@@ -17,7 +17,7 @@ Any signed-up user can request to hire any space for one night, and this should 
 
 Nights for which a space has already been booked should not be available for users to book that space.
 
-Until a user has confirmed a booking request, that space can still be booked for that night.</div>**  
+Until a user has confirmed a booking request, that space can still be booked for that night.</div>
   
 #### <div align="center">MVP:-
 By Tuesday afternoon, our minimum viable product is to have a functioning web page that allows a user to create an account and view listed rooms. We aim to do this by creating a database that holds account detsails and room details. 
